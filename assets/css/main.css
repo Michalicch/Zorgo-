@@ -354,7 +354,7 @@ body {
 }
 
 .certificates-slide:hover .certificates-caption {
-  color: #0036b0;
+  color: #347e44;
 }
 .certificates-slide:hover .certificates-img {
   opacity: 1;
@@ -381,7 +381,7 @@ body {
 /*окошко слайдера*/
 .slider-container {
   overflow: hidden;
-  background-color: #2e57b9;
+  background-color: #cacb8e;
 }
 /*лента слайдера*/
 .certificates-slider {
