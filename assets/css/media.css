@@ -1,0 +1,255 @@
+@media (max-width: 1366px) {
+  /**********  Header  *********/
+  .contain-wide {
+    max-width: 1140px;
+  }
+  .header {
+    height: auto;
+  } 
+  /**********   Main  *********/
+  /**********   Footer  *********/ 
+}
+
+@media (max-width: 1199px) {
+  /**********  Header  *********/
+  .contain-wide, .contain-narrow {
+    max-width: 970px;
+  }
+  .logo span {
+    max-width: 182px;
+  }
+  .logo {
+    width: auto;
+  }
+  .top-w {
+    justify-content: space-between;
+  }
+  .burger,
+  .top-call,
+  .top-btn {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  /**********   Main  *********/
+  /**********   Footer  *********/
+}
+
+@media (max-width: 991px) {
+  /**********  Header  *********/
+  .header-top {
+    margin-bottom: 30px;
+  }
+  .contain-wide, .contain-narrow  {
+    max-width: 750px;
+  }
+  .banner-right img {
+    width: 550px;    
+  }
+  .logo {
+    flex-basis: 100%;
+  }
+  .logo span {
+    max-width: 100%;
+    text-align: center;
+  }
+  .top-w {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;  
+  }
+  .top-phone-sl {
+    padding-left: 35px;
+  }
+  .open-menu {
+    width: 400px;
+  }    
+  /**********   Main  *********/
+
+  /*catalog*/
+  .catalog-img-wr {
+    width: 140px;
+    height: 140px;    
+  }
+  .catalog-img-wr img {
+    width: 140%;
+    height: auto;
+  }
+  .card-caption {
+    padding: 0 10px;
+    font-size: 14px;
+    line-height: 120%;
+  }  
+  .catalog-card {
+    height: 300px;
+  }
+
+  /**********   Footer  *********/
+}
+
+@media (max-width: 767px) {
+  /**********  Header  *********/
+  .contain-wide, .contain-narrow  {
+    max-width: 650px;
+  }
+  .banner-left {
+    max-width: 380px;   
+  }
+  .banner-left h1 {
+    font-size: 25px;
+    line-height: 100%;
+  }
+  
+  /**********   Main  *********/
+
+  /*catalog*/
+  .catalog-img-wr {
+    width: 110px;
+    height: 110px;    
+  }
+  .catalog-img-wr img {
+    width: 130%;
+    height: auto;
+  }
+    .card-caption {
+    padding: 0 5px;
+    font-size: 13px;
+    line-height: 110%;
+  }  
+  .catalog-card {
+    height: 270px;
+    padding-top: 30px;
+  }
+  /**********   Footer  *********/
+}
+
+@media (max-width:562px){
+  /**********  Header  *********/
+  .logo {
+    flex-direction: column;
+    padding-bottom: 20px;
+  }
+  .logo img {
+    flex-basis: 100%;
+  }
+  .top-phone-sl, 
+  .top-call {
+    padding-bottom: 15px;    
+  }
+  .top-call {
+    flex-basis: 50%;
+    text-align: end;
+    margin-right: 15px;
+  }
+  .open-menu {
+    width: 300px;   
+  }
+  /**********   Main  *********/
+  /*catalog*/
+  .catalog-img-wr {
+    width: 100px;
+    height: 100px;    
+  }
+  .catalog-img-wr img {
+    width: 120%;
+    height: auto;
+  }
+  .card-caption {
+    padding: 0 5px;
+    font-size: 11px;
+    line-height: 100%;
+  }  
+  /**********   Footer  *********/
+}
+
+@media (max-width:450px){
+  /**********  Header  *********/
+  .top-w {    
+    flex-wrap: wrap;
+    justify-items: center;
+  }  
+  .logo {    
+    margin-right: 0;      
+  }
+  .logo span {    
+    width: 250px;
+    margin-left: 0;     
+  }
+  .top-phone-wr {
+    
+    width: 100%;
+  }
+  .top-phone-wr::after{
+    /* left: 32px; */
+  }
+  .top-phone-sl,
+  .top-call {    
+    width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  .top-phone {    
+    width: 100%;
+    text-align: center;    
+    margin-right: 35px;
+  }
+  .top-btn {
+    flex-basis: 70%;
+  }
+  .burger {    
+    flex-basis: 10%;
+  }
+  .banner-left {
+    max-width: 320px;
+    margin-left: auto;
+    
+  }
+  .banner-left h1 {
+    font-weight: 800;
+    font-size: 22px; 
+    padding-right: 10px;     
+  }
+  .banner-left p {  
+    max-width: 300px;  
+    line-height: 120%;
+    padding-right: 10px;    
+  }
+  .btn-blue {    
+    width: 290px;
+    height: 48px;    
+    line-height: 100%;
+    text-align: center;
+  }
+
+  
+
+
+  /**********   Main  *********/
+
+  /*catalog*/
+  .catalog-img-wr {
+    width: 80px;
+    height: 80px;    
+  }
+  .catalog-img-wr img {
+    width: 120%;
+    height: auto;
+  }
+  .card-caption {
+    margin-top: 15px;
+    padding: 0 3px;
+    font-weight: 400;
+    font-size: 10px;    
+  }  
+  .catalog-card {
+    height: 200px;
+    padding-top: 20px;
+  }
+  /**********   Footer  *********/
+}
+@media (max-width:360px){
+  body, body > * {
+    width: auto;
+    min-width: 360px;
+  }
+}
